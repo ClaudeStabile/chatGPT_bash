@@ -26,7 +26,7 @@ LIMITATIONS : Ne fonctionne qu'en Français
 
 CONTRIBUTEURS :
 
-Tous les contributeurs sont les bienvennus
+Tous les contributeurs sont les bienvenus
 
 
 
