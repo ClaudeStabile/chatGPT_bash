@@ -8,9 +8,7 @@ function init_screen()
 function text_to_speech()
 {
 	text_to_read=$1
-	#espeak -v mb/mb-fr1 "$text_to_read" -s 120 > /dev/null
-#	pico2wave --lang=$2 -w out.wav "$text_to_read" && aplay out.wav > /dev/null
-	rm out.wav
+	if [ -f out.wav ]; then rm out.wav ; fi
 	pico2wave --lang="fr-FR" -w out.wav "$text_to_read" && aplay out.wav 2> /dev/null
 
 }
