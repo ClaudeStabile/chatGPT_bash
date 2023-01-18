@@ -16,6 +16,8 @@ Mettez la clé dans le fichier config.cfg pour définir la variable api_key
 UTILISATION : 
 ./chatGPTFS.sh
 
+==> Le fichier out.wav contient la dernière réponse au format Audio
+
 Pre-requis :
 
 pico2wave
