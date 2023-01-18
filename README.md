@@ -20,7 +20,7 @@ Pre-requis :
 
 pico2wave
 
-apt install pico2wav
+apt install libttspico-utils
 
 LIMITATIONS : Ne fonctionne qu'en Français
 
